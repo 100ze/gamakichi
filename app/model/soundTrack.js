@@ -1,8 +1,9 @@
 
 export default class SoundTrack {
-  static mendokusei = new Audio("../../sound/mendokusei.mp3")
-  static yo = new Audio("../../sound/yo.mp3")
-  static kagebunshin = new Audio("../../sound/kagebunshin.mp3")
+  static githubAddress = "https://raw.githubusercontent.com/100ze/gamakichi/main/"
+  static mendokusei = new Audio(this.githubAddress + "sound/mendokusei.mp3")
+  static yo = new Audio(this.githubAddress + "sound/yo.mp3")
+  static kagebunshin = new Audio(this.githubAddress + "sound/kagebunshin.mp3")
 
   static mendokuseiPlay(){
     this.mendokusei.play()
