@@ -1,0 +1,35 @@
+
+/* page */
+
+.wrapper {
+  max-width: 800px;
+  min-width: 620px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  min-height: 180px;
+}
+
+.wrapper_botoes {
+  width: 100%;
+}
+
+button {
+  padding: 0;
+}
+
+#campo_de_texto {
+  width: 100%;
+  min-height: 800px;
+  text-indent: 0;
+}
+
+footer {
+  height: 150px;
+}
+
+footer p:last-child {
+  font-style: italic;
+}

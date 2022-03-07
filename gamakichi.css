@@ -1,0 +1,39 @@
+/* css/gamakichi.css */
+
+/* header */
+
+.wrapper_principal {
+  max-width: 1200px;
+  min-width: 620px;
+  margin: 0 auto;
+}
+
+header {
+  min-height: 520px;
+}
+
+.imagem_header {
+  max-width: 300px;
+}
+
+.opcoes_header {
+  min-height: 120px;
+}
+
+.botoes_header {
+  width: 100%;
+}
+
+/* section */
+
+textarea {
+  width: 100%;
+  height: 300px;
+}
+
+/* footer */
+
+footer {
+  height: 150px;
+}
+

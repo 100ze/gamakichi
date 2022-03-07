@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gamakichi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="icon" href="img/akatsuki.svg">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/gamakichi.css">
+  </head>
+
+  <body class="w3-yellow">
+    <div class="wrapper w3-xlarge w3-indigo">
+      <header class="w3-container w3-display-container w3-margin-bottom">
+        <nav>
+          <div class="w3-container w3-display-topmiddle">
+            <input id="campo_nome" class="w3-padding-small" type="text" placeholder="Nome do meliante...">
+          </div>
+          <div class="wrapper_botoes w3-container w3-display-middle w3-row">
+            <button id="botao_copiar_tudo" class="w3-third">Copiar</button> 
+            <button id="botao_limpar" class="w3-third">Limpar</button> 
+            <button id="botao_nova_aba" class="w3-third">Clone</button> 
+          </div>
+          <div class="w3-display-bottommiddle">
+            <select id="OS" class="w3-padding">
+            </select>
+          </div>
+        </nav>
+      </header>
+      <main class="w3-container">
+        <textarea id="campo_de_texto">
+        </textarea>
+      </main>
+      <footer class="w3-container w3-center">
+        <p>Feito com &hearts; por Wilton Ribeiro</p>
+        <p class="w3-large">Propriety of <strong>POV Industries Ltda.</strong> all rights reserved.</p>
+      </footer>
+    </div>
+
+    <script src="app/app.js" type="module"></script>
+  </body>
+</html>
