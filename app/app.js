@@ -1,6 +1,7 @@
 
 import h from "./helper/helper.js"
 import getTEXT from "./model/getTEXT.js"
+import hide from "./helper/hide.js"
 import OptionView from "./view/optionView.js"
 import Controller from "./controller/controller.js"
 import SoundTrack from "./model/soundTrack.js"
