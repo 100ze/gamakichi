@@ -1,6 +1,10 @@
 
 /* page */
 
+.hide {
+  visibility: hidden !important;
+}
+
 .wrapper {
   max-width: 800px;
   min-width: 620px;
