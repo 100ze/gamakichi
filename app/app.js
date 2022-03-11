@@ -10,9 +10,7 @@ import SoundTrack from "./model/soundTrack.js"
 // que não são arrow functions
 window.SoundTrack = SoundTrack
 
-window.hide = hide
-
-hide(false)
+await SoundTrack.load()
 
 const indice = JSON.parse(getTEXT("data/indice.json"))
 
