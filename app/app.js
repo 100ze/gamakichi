@@ -10,13 +10,6 @@ import SoundTrack from "./model/soundTrack.js"
 // que não são arrow functions
 window.SoundTrack = SoundTrack
 
-await SoundTrack.load()
-
-const indice = JSON.parse(getTEXT("data/indice.json"))
-
-indice.indice.forEach((value) => {
-  OptionView.adicionarOption(value, value)
+await SoundTrack.load(() => {
+  SoundTrack.yoPlay()
 })
-
-Controller.adicionarControllers()
-Controller.primeiraExecucao(indice.indice[0])
