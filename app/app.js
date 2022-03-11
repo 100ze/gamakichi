@@ -10,6 +10,17 @@ import SoundTrack from "./model/soundTrack.js"
 // que não são arrow functions
 window.SoundTrack = SoundTrack
 
+// esperar que os audios sejam carregados antes de exibir a página
 await SoundTrack.load(() => {
-  SoundTrack.yoPlay()
+  const indice = JSON.parse(getTEXT("data/indice.json"))
+
+  indice.indice.forEach((value) => {
+    OptionView.adicionarOption(value, value)
+  })
+
+  Controller.adicionarControllers()
+  Controller.primeiraExecucao(indice.indice[0])
+
+  hide(false)
 })
+
