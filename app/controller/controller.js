@@ -31,7 +31,9 @@ class ControllerPrivate {
 
   static adicionarControllerBotaoLimpar() {
     this.botaoLimpar.addEventListener("click", () => {
-      TextareaView.limparTexto()
+      const caminho = "data/" + this.select.value
+      const response = getTEXT(caminho)
+      TextareaView.substituirTexto(response)
       SoundTrack.mendokuseiPlay()
     })
   }
