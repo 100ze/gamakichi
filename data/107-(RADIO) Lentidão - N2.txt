@@ -1,0 +1,19 @@
+
+---Com quem estou falando? Por gentileza = 
+---O que está ocorrendo? = 
+---Tem alguma luz VERMELHA acesa no equipamento da internet? = 
+
+---O seu endereço é ... 
+---Qual a cor da Casa? = 
+---Qual o tipo de portão? = 
+---Qual a Cor do muro? = 
+---Fica próximo de que? Por gentileza = 
+---Qual o telefone para contato? = 
+
+---LOCALIZAÇÃO CONFIÁVEL
+ 
+---Tem parcelas VENCIDAS? = 
+---Sinal atena: 
+---CCQ: 
+---Foi reiniciado fonte POE: 
+---Foi reiniciado roteador: 

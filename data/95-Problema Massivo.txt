@@ -1,5 +1,6 @@
+
 Cliente com problema Massivo!
-Região:
-Horario da queda:
-Equipamento MAC/SN
+Região: 
+Horario da queda: 
+Equipamento MAC/SN: 
 Telefone para contato: 

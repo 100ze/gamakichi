@@ -1,0 +1,20 @@
+
+---TVBOX está por cabo de rede ou wifi = 
+---Sua TV está sem imagem? = 
+---O Aplicativo TVN aparece? = 
+---Está travando as imagens? = 
+---Algum canal indisponivel (fora)? = 
+---Quais canais estão com problema? = 
+---O que está ocorrendo? = 
+
+---Com quem estou falando? por gentileza = 
+---O seu endereço é ... 
+---Qual a cor da Casa? = 
+---Qual o tipo de portão? = 
+---Qual a Cor do muro? = 
+---Fica próximo de que? Por gentileza = 
+---Qual o telefone para contato? = 
+
+---Testado pelo portal? = 
+---Tem parcelas VENCIDAS? = 
+---Foi reiniciado?: 

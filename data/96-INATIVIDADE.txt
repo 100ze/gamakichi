@@ -1,0 +1,4 @@
+
+Cliente visualiza as mensagens, mas não responde e nem atende via telefone!
+Protocolo do Wpp = 
+Numero ligado = 

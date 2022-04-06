@@ -1,0 +1,23 @@
+
+---Com quem estou falando? Por gentileza = 
+---O que está ocorrendo? = 
+---Ocorre em algum horário específico? = 
+---Tem alguma luz VERMELHA acesa no equipamento da internet? = 
+
+---O seu endereço é ... 
+---Qual a cor da Casa? = 
+---Qual o tipo de portão? = 
+---Qual a Cor do muro? = 
+---Fica próximo de que? Por gentileza = 
+---Qual o telefone para contato? = 
+
+---LOCALIZAÇÃO CONFIÁVEL
+ 
+---Tem parcelas VENCIDAS? = 
+---Foi reinciado: 
+---MAC ONU/ONT: 
+---OLT: 
+---Concetrador: 
+---Sinal fibra: 
+---Data ultima OS: 
+---O que foi feito: 
