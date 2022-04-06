@@ -13,7 +13,7 @@ class ControllerPrivate {
   static campoNome = h.qs("#campo_nome")
   static title = h.qs("title")
 
-  static adicionarControllerTextarea(){
+  static adicionarControllerSelect() {
     this.select.addEventListener("change", function() {
       const caminho = "data/" + this.value
       const response = getTEXT(caminho)
@@ -22,28 +22,28 @@ class ControllerPrivate {
     })
   }
 
-  static adicionarControllerBotaoCopiarTudo(){
+  static adicionarControllerBotaoCopiarTudo() {
     this.botaoCopiarTudo.addEventListener("click", () => {
       navigator.clipboard.writeText(TextareaView.pegarTexto())
       SoundTrack.yoPlay()
     })
   }
 
-  static adicionarControllerBotaoLimpar(){
+  static adicionarControllerBotaoLimpar() {
     this.botaoLimpar.addEventListener("click", () => {
       TextareaView.limparTexto()
       SoundTrack.mendokuseiPlay()
     })
   }
 
-  static adicionarControllerBotaoNovaAba(){
+  static adicionarControllerBotaoNovaAba() {
     this.botaoNovaAba.addEventListener("click", () => {
       window.open(document.URL, "_blank")
       SoundTrack.kagebunshinPlay()
     })
   }
 
-  static adicionarControllerCampoNome(){
+  static adicionarControllerCampoNome() {
     this.campoNome.addEventListener("input", () => {
       this.title.textContent = this.campoNome.value
     })
@@ -52,16 +52,16 @@ class ControllerPrivate {
 
 export default class Controller {
 
-  static adicionarControllers(){
-    ControllerPrivate.adicionarControllerTextarea()
+  static adicionarControllers() {
+    ControllerPrivate.adicionarControllerSelect()
     ControllerPrivate.adicionarControllerBotaoCopiarTudo()
     ControllerPrivate.adicionarControllerBotaoLimpar()
     ControllerPrivate.adicionarControllerBotaoNovaAba()
     ControllerPrivate.adicionarControllerCampoNome()
   }
 
-  static primeiraExecucao(primeiroElementoIndice){
-    const caminho = "data/" + primeiroElementoIndice 
+  static primeiraExecucao(primeiroElementoIndice) {
+    const caminho = "data/" + primeiroElementoIndice
     const response = getTEXT(caminho)
     TextareaView.substituirTexto(response)
   }
